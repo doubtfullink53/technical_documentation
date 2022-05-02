@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <section class="layout">
+      <div class="navbar">
+        <nav id="navbar">
+
+          <header>JS Introduction</header>
+          <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+          <li><a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a></li>
+          <li><a href="#Getting_Started_With_JavaScript" class="nav-link">Getting started with JavaScript</a></li>
+
+          <li><a href="#Single-Line_Input_In_The_Web_Console" class="nav-link">Single-line input in the Web Console</a></li>
+          <li><a href="#Multi-line_input_in_the_Web_Console" class="nav-link">Multi-line input in the Web Console</a></li>
+
+        </nav>
+
+      </div>
+      <main id="main-doc">
+        <div class="body">
+          <section id="Introduction" class="main-section">
+
+            <header>
+              Introduction
+            </header>
+            <p>
+              What is JavaScript?
+            </p>
+            <p>
+              JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons, popup menus, etc.). There are also more advanced server side versions of JavaScript such as Node.js, which allow you to add more functionality to a website than downloading files (such as realtime collaboration between multiple computers). Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+            </p>
+
+            <li></li>
+          </section>
+          <section id="JavaScript_and_Java" class="main-section">
+            <header>
+              JavaScript and Java
+            </header>
+            <li></li>
+
+            <p>
+              JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
+            </p>
+            <p>
+              Example: This is the basic Javascript example.
+            </p>
+            <code>
+              class A {
+              public static void main(String args[]){
+              System.out.println("Hello World");
+              }
+              }
+            </code>
+
+            <code>
+              console.log("Welcome to GeeksforGeeks Learning");
+            </code>
+            <p>
+              Example: This is the basic Java program
+            </p>
+            <code>
+              import java.io.*;
+
+              class GFG {
+              public static void main(String[] args)
+              {
+              System.out.println(
+              "Welcome to GeeksforGeeks Learning");
+              }
+              }
+            </code>
+          </section>
+          <section id="Getting_Started_With_JavaScript" class="main-section">
+            <header>
+              Getting started with JavaScript
+            </header>
+            <li></li>
+            <p>
+              Getting started with JavaScript is easy: all you need is a modern Web browser. This guide includes some JavaScript features which are only currently available in the latest versions of Firefox, so using the most recent version of Firefox is recommended.
+            </p>
+            <p>
+              The Web Console tool built into Firefox is useful for experimenting with JavaScript; you can use it in two modes: single-line input mode, and multi-line input mode.
+            </p>
+          </section>
+          <section id="Single-Line_Input_In_The_Web_Console" class="main-section">
+            <header>
+              Single-line input in the Web Console
+            </header>
+            <li></li>
+            <p>
+              The Web Console shows you information about the currently loaded Web page, and also includes a JavaScript interpreter that you can use to execute JavaScript expressions in the current page.
+            </p>
+            <p>
+              To open the Web Console (Ctrl+Shift+I on Windows and Linux or Cmd-Option-K on Mac), open the Tools menu in Firefox, and select "Developer ▶ Web Console".
+            </p>
+            <p>
+              The console works the exact same way as eval: the last expression entered is returned. For the sake of simplicity, it can be imagined that every time something is entered into the console, it is actually surrounded by console.log around eval, like so:
+            </p>
+            <code>
+              console.log(eval('3 + 5'))
+            </code>
+
+            <p>
+              Describingtext for 4
+            </p>
+          </section>
+          <section id="Multi-line_input_in_the_Web_Console" class="main-section">
+            <header> Multi-line input in the Web Console
+            </header>
+            <li></li>
+
+            <p>
+              The single-line input mode of the Web Console is great for quick testing of JavaScript expressions, but although you can execute multiple lines, it's not very convenient for that. For more complex JavaScript, you can use the multi-line input mode.
+            </p>
+            <h1>
+              Hello world
+            </h1>
+            <p>
+
+              To get started with writing JavaScript, open the Web Console in multi-line mode, and write your first "Hello world" JavaScript code:
+            </p>
+            <code>
+              (function(){
+              "use strict";
+              /* Start of your code */
+              function greetMe(yourName) {
+              alert('Hello ' + yourName);
+              }
+
+              greetMe('World');
+              /* End of your code */
+              })();
+            </code>
+          </section>
+        </div>
+          </main>
+        </section>
+
+
+
+
+
+
+
+    </body>
